@@ -9,10 +9,10 @@
 
 
 
-@media screen
-and (min-device-width: 1200px)
-and (max-device-width: 1680px)
-and (-webkit-min-device-pixel-ratio: 1) {
+/*@media screen
+/*and (min-device-width: 1200px)
+/*and (max-device-width: 1680px)
+/*and (-webkit-min-device-pixel-ratio: 1) {*/
 
     header {
         width: auto;
@@ -49,9 +49,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .icon {
         height: 50px;
     }
-}
+/*}*/
 
-@media
+/*@media
 (min-device-width: 800px)
 and (max-device-width: 1200px) {
 
@@ -135,15 +135,15 @@ and (-webkit-device-pixel-ratio: 2) {
         height: 50px;
     }
 
-}
+}*/
 
 
 /*MAIN*/
 
-@media screen
+/*@media screen
 and (min-device-width: 1200px)
 and (max-device-width: 1680px)
-and (-webkit-min-device-pixel-ratio: 1) {
+and (-webkit-min-device-pixel-ratio: 1) {*/
 
     main h1{
         color: #000000;
@@ -199,16 +199,16 @@ and (-webkit-min-device-pixel-ratio: 1) {
         font-size: 0.9em;
         font-style: italic;
     }
-}
+/*}*/
 
 
 
 /*FOOTER*/
 
-@media screen
+/*@media screen
 and (min-device-width: 1200px)
 and (max-device-width: 1680px)
-and (-webkit-min-device-pixel-ratio: 1) {
+and (-webkit-min-device-pixel-ratio: 1) {*/
     footer{
         background-color: #757b80;
         margin-top: 2%;
@@ -219,4 +219,4 @@ and (-webkit-min-device-pixel-ratio: 1) {
         text-align: center;
         color: #ffffff;
     }
-}
+/*}*/
