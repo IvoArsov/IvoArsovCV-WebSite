@@ -155,8 +155,60 @@ footer p{
 
 /*RESPONSIVE*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 2){
 
+    /*MAIN*/
+
+    .skills-points{
+        position: relative;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 768px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+    .container{
+        max-width: 100%;
+    }
+
+    /*HEADER*/
+
+    #avatar {
+        margin: 10% 35% 5%;
+    }
+
+    h2.header-present-name {
+        margin-left: 35%;
+    }
+
+    .contacts, .icons-div{
+        margin: 10% 33% 5%;
+    }
+
+    header a{
+        margin:2%;
+    }
+
+    /*MAIN*/
+
+    .skills-points{
+        position: relative;
+        left: 65%;
+    }
+
+    .certificate-link{
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2){
+
+    .container{
+        max-width: 100%;
+    }
     /*HEADER*/
 
     #avatar {
@@ -173,5 +225,48 @@ footer p{
 
     header a{
         margin:2%;
+    }
+
+    /*MAIN*/
+
+    .skills-points{
+        position: relative;
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 320px)
+    and (-webkit-min-device-pixel-ratio: 2){
+    .container{
+        max-width: 100%;
+    }
+
+    /*HEADER*/
+
+    #avatar {
+        margin: 10% 20% 5%;
+    }
+
+    h2.header-present-name {
+        margin-left: 20%;
+    }
+
+    .contacts, .icons-div{
+        margin: 10% 18% 5%;
+    }
+
+    header a{
+        margin:2%;
+    }
+
+    /*MAIN*/
+
+    .skills-points{
+        position: relative;
+        left: 25%;
+    }
+
+    .certificate-link{
+        margin-left: 25%;
     }
 }
